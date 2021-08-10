@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout3"
+    android:layout_width="match_parent"
+android:orientation="vertical"
+    android:layout_height="match_parent"
+   android:gravity="bottom"
+    tools:context=".activities.activities.mainSelection">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="120dp"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="@dimen/mainscreenviewwidth"
+        android:layout_height="@dimen/mainscreenviewheight"
+        android:layout_margin="10dp"
+        >
+
+        <ImageView
+            android:layout_width="@dimen/selectionimageswidth"
+            android:layout_height="@dimen/selectionimagesheight"
+            android:layout_gravity="center"
+            android:layout_marginBottom="40dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/ic_buyersidebtn" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="You want to continue as Buyer?"
+            android:textSize="15sp"/>
+
+        <Button
+            android:id="@+id/buyersidebtn"
+            android:layout_width="70dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:background="@color/primaryDark"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:padding="3dp"
+            android:textSize="10sp"
+            android:text="Continue"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="@dimen/mainscreenviewwidth"
+        android:layout_height="@dimen/mainscreenviewheight"
+        android:layout_margin="10dp"
+        >
+
+        <ImageView
+            android:layout_width="@dimen/selectionimageswidth"
+            android:layout_height="@dimen/selectionimagesheight"
+            android:layout_gravity="center"
+            android:layout_marginBottom="40dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/ic_shopsidebtn" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="You want to continue as Shop Owner?"
+            android:textSize="15sp"/>
+
+        <Button
+            android:id="@+id/shopsidebtn"
+            android:layout_width="70dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:background="@color/primaryDark"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:padding="3dp"
+            android:textSize="10sp"
+            android:text="Continue" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="@dimen/mainscreenviewwidth"
+        android:layout_height="@dimen/mainscreenviewheight"
+        android:layout_margin="10dp"
+        >
+
+        <ImageView
+            android:layout_width="@dimen/selectionimageswidth"
+            android:layout_height="@dimen/selectionimagesheight"
+            android:layout_gravity="center"
+            android:layout_marginBottom="40dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/ic_freightsidebtn" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="You want to continue as Freight?"
+            android:textSize="15sp"/>
+
+        <Button
+            android:id="@+id/freightsidebtn"
+            android:layout_width="70dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:background="@color/primaryDark"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:padding="3dp"
+            android:textSize="10sp"
+            android:text="Continue" />
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_gravity="bottom"
+        android:src="@drawable/ic_wave"
+
+        />
+</LinearLayout>

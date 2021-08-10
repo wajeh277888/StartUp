@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="mainscreenviewheight">190dp</dimen>
+    <dimen name="mainscreenviewwidth">250dp</dimen>
+    <dimen name="selectionimageswidth">100dp</dimen>
+    <dimen name="selectionimagesheight">90dp</dimen>
+
+</resources>
